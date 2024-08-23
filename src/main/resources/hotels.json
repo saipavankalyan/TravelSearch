@@ -1,0 +1,377 @@
+[
+    {
+        "id": 1,
+        "name": "Hotel 256",
+        "address": "607 Main Street, New York, USA",
+        "stars": 3,
+        "rating": 9.4,
+        "amenities": [
+            "Parking",
+            "Fitness center",
+            "Swimming pool",
+            "Room service"
+        ],
+        "price_per_night": 136,
+        "location": "JFK"
+    },
+    {
+        "id": 2,
+        "name": "Hotel 465",
+        "address": "805 Main Street, New York, USA",
+        "stars": 2,
+        "rating": 6.2,
+        "amenities": [
+            "Restaurant",
+            "Free Wi-Fi",
+            "Swimming pool",
+            "Bar"
+        ],
+        "price_per_night": 411,
+        "location": "JFK"
+    },
+    {
+        "id": 3,
+        "name": "Hotel 333",
+        "address": "381 Main Street, New York, USA",
+        "stars": 3,
+        "rating": 6.0,
+        "amenities": [
+            "Swimming pool",
+            "Free Wi-Fi",
+            "Room service",
+            "Parking"
+        ],
+        "price_per_night": 432,
+        "location": "JFK"
+    },
+    {
+        "id": 4,
+        "name": "Hotel 822",
+        "address": "941 Main Street, New York, USA",
+        "stars": 1,
+        "rating": 9.5,
+        "amenities": [
+            "Restaurant",
+            "Fitness center",
+            "Free Wi-Fi",
+            "Bar"
+        ],
+        "price_per_night": 221,
+        "location": "JFK"
+    },
+    {
+        "id": 5,
+        "name": "Hotel 747",
+        "address": "480 Main Street, New York, USA",
+        "stars": 5,
+        "rating": 6.7,
+        "amenities": [
+            "Fitness center",
+            "Swimming pool",
+            "Free Wi-Fi",
+            "Parking"
+        ],
+        "price_per_night": 284,
+        "location": "JFK"
+    },
+    {
+        "id": 6,
+        "name": "Hotel 486",
+        "address": "445 Main Street, Los Angeles, USA",
+        "stars": 2,
+        "rating": 5.4,
+        "amenities": [
+            "Free Wi-Fi",
+            "Spa",
+            "Fitness center",
+            "Swimming pool"
+        ],
+        "price_per_night": 250,
+        "location": "LAX"
+    },
+    {
+        "id": 7,
+        "name": "Hotel 713",
+        "address": "932 Main Street, Los Angeles, USA",
+        "stars": 3,
+        "rating": 7.1,
+        "amenities": [
+            "Restaurant",
+            "Room service",
+            "Spa",
+            "Parking"
+        ],
+        "price_per_night": 428,
+        "location": "LAX"
+    },
+    {
+        "id": 8,
+        "name": "Hotel 285",
+        "address": "851 Main Street, Los Angeles, USA",
+        "stars": 3,
+        "rating": 6.4,
+        "amenities": [
+            "Spa",
+            "Free Wi-Fi",
+            "Restaurant",
+            "Fitness center"
+        ],
+        "price_per_night": 263,
+        "location": "LAX"
+    },
+    {
+        "id": 9,
+        "name": "Hotel 138",
+        "address": "182 Main Street, Los Angeles, USA",
+        "stars": 3,
+        "rating": 7.1,
+        "amenities": [
+            "Bar",
+            "Free Wi-Fi",
+            "Room service",
+            "Spa"
+        ],
+        "price_per_night": 116,
+        "location": "LAX"
+    },
+    {
+        "id": 10,
+        "name": "Hotel 817",
+        "address": "755 Main Street, Los Angeles, USA",
+        "stars": 2,
+        "rating": 7.0,
+        "amenities": [
+            "Room service",
+            "Fitness center",
+            "Swimming pool",
+            "Spa"
+        ],
+        "price_per_night": 492,
+        "location": "LAX"
+    },
+    {
+        "id": 11,
+        "name": "Hotel 423",
+        "address": "652 Main Street, London, UK",
+        "stars": 3,
+        "rating": 7.0,
+        "amenities": [
+            "Restaurant",
+            "Fitness center",
+            "Free Wi-Fi",
+            "Room service"
+        ],
+        "price_per_night": 413,
+        "location": "LHR"
+    },
+    {
+        "id": 12,
+        "name": "Hotel 537",
+        "address": "211 Main Street, London, UK",
+        "stars": 2,
+        "rating": 7.3,
+        "amenities": [
+            "Room service",
+            "Restaurant",
+            "Swimming pool",
+            "Parking"
+        ],
+        "price_per_night": 102,
+        "location": "LHR"
+    },
+    {
+        "id": 13,
+        "name": "Hotel 553",
+        "address": "543 Main Street, London, UK",
+        "stars": 4,
+        "rating": 6.7,
+        "amenities": [
+            "Restaurant",
+            "Free Wi-Fi",
+            "Spa",
+            "Room service"
+        ],
+        "price_per_night": 266,
+        "location": "LHR"
+    },
+    {
+        "id": 14,
+        "name": "Hotel 393",
+        "address": "32 Main Street, London, UK",
+        "stars": 1,
+        "rating": 5.1,
+        "amenities": [
+            "Fitness center",
+            "Parking",
+            "Bar",
+            "Room service"
+        ],
+        "price_per_night": 339,
+        "location": "LHR"
+    },
+    {
+        "id": 15,
+        "name": "Hotel 862",
+        "address": "393 Main Street, London, UK",
+        "stars": 5,
+        "rating": 9.3,
+        "amenities": [
+            "Parking",
+            "Swimming pool",
+            "Free Wi-Fi",
+            "Spa"
+        ],
+        "price_per_night": 251,
+        "location": "LHR"
+    },
+    {
+        "id": 16,
+        "name": "Hotel 982",
+        "address": "381 Main Street, Tokyo, Japan",
+        "stars": 5,
+        "rating": 8.4,
+        "amenities": [
+            "Restaurant",
+            "Parking",
+            "Swimming pool",
+            "Fitness center"
+        ],
+        "price_per_night": 491,
+        "location": "NRT"
+    },
+    {
+        "id": 17,
+        "name": "Hotel 360",
+        "address": "83 Main Street, Tokyo, Japan",
+        "stars": 2,
+        "rating": 5.1,
+        "amenities": [
+            "Parking",
+            "Restaurant",
+            "Fitness center",
+            "Swimming pool"
+        ],
+        "price_per_night": 412,
+        "location": "NRT"
+    },
+    {
+        "id": 18,
+        "name": "Hotel 877",
+        "address": "605 Main Street, Tokyo, Japan",
+        "stars": 1,
+        "rating": 7.2,
+        "amenities": [
+            "Swimming pool",
+            "Spa",
+            "Free Wi-Fi",
+            "Parking"
+        ],
+        "price_per_night": 446,
+        "location": "NRT"
+    },
+    {
+        "id": 19,
+        "name": "Hotel 639",
+        "address": "922 Main Street, Tokyo, Japan",
+        "stars": 2,
+        "rating": 7.0,
+        "amenities": [
+            "Free Wi-Fi",
+            "Swimming pool",
+            "Parking",
+            "Bar"
+        ],
+        "price_per_night": 463,
+        "location": "NRT"
+    },
+    {
+        "id": 20,
+        "name": "Hotel 385",
+        "address": "905 Main Street, Tokyo, Japan",
+        "stars": 5,
+        "rating": 6.5,
+        "amenities": [
+            "Parking",
+            "Bar",
+            "Free Wi-Fi",
+            "Restaurant"
+        ],
+        "price_per_night": 218,
+        "location": "NRT"
+    },
+    {
+        "id": 21,
+        "name": "Hotel 458",
+        "address": "634 Main Street, Sydney, Australia",
+        "stars": 4,
+        "rating": 8.6,
+        "amenities": [
+            "Restaurant",
+            "Fitness center",
+            "Bar",
+            "Spa"
+        ],
+        "price_per_night": 143,
+        "location": "SYD"
+    },
+    {
+        "id": 22,
+        "name": "Hotel 806",
+        "address": "452 Main Street, Sydney, Australia",
+        "stars": 1,
+        "rating": 8.1,
+        "amenities": [
+            "Restaurant",
+            "Room service",
+            "Swimming pool",
+            "Parking"
+        ],
+        "price_per_night": 441,
+        "location": "SYD"
+    },
+    {
+        "id": 23,
+        "name": "Hotel 643",
+        "address": "337 Main Street, Sydney, Australia",
+        "stars": 5,
+        "rating": 6.2,
+        "amenities": [
+            "Bar",
+            "Swimming pool",
+            "Spa",
+            "Restaurant"
+        ],
+        "price_per_night": 218,
+        "location": "SYD"
+    },
+    {
+        "id": 24,
+        "name": "Hotel 746",
+        "address": "579 Main Street, Sydney, Australia",
+        "stars": 5,
+        "rating": 5.8,
+        "amenities": [
+            "Parking",
+            "Spa",
+            "Free Wi-Fi",
+            "Room service"
+        ],
+        "price_per_night": 201,
+        "location": "SYD"
+    },
+    {
+        "id": 25,
+        "name": "Hotel 662",
+        "address": "515 Main Street, Sydney, Australia",
+        "stars": 2,
+        "rating": 9.8,
+        "amenities": [
+            "Swimming pool",
+            "Parking",
+            "Room service",
+            "Spa"
+        ],
+        "price_per_night": 139,
+        "location": "SYD"
+    }
+]

@@ -1,0 +1,161 @@
+{
+	"info": {
+		"_postman_id": "a9317e1a-7751-429e-94ee-1acabefa41a6",
+		"name": "Travelwits",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Get Flights",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{host}}/flights?src=JFK&dest=LAX",
+					"host": [
+						"{{host}}"
+					],
+					"path": [
+						"flights"
+					],
+					"query": [
+						{
+							"key": "src",
+							"value": "JFK"
+						},
+						{
+							"key": "dest",
+							"value": "LAX"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get Flight",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{host}}/flights/3",
+					"host": [
+						"{{host}}"
+					],
+					"path": [
+						"flights",
+						"3"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get Hotels",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{host}}/hotels?city=JFK",
+					"host": [
+						"{{host}}"
+					],
+					"path": [
+						"hotels"
+					],
+					"query": [
+						{
+							"key": "city",
+							"value": "JFK"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get Hotel",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{host}}/hotels/22",
+					"host": [
+						"{{host}}"
+					],
+					"path": [
+						"hotels",
+						"22"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get Suggestions",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{host}}/suggest?from=JFK&budget=1232.12&days=3&pageNumber=2&pageSize=3",
+					"host": [
+						"{{host}}"
+					],
+					"path": [
+						"suggest"
+					],
+					"query": [
+						{
+							"key": "from",
+							"value": "JFK"
+						},
+						{
+							"key": "budget",
+							"value": "1232.12"
+						},
+						{
+							"key": "days",
+							"value": "3"
+						},
+						{
+							"key": "pageNumber",
+							"value": "2"
+						},
+						{
+							"key": "pageSize",
+							"value": "3"
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	],
+	"event": [
+		{
+			"listen": "prerequest",
+			"script": {
+				"type": "text/javascript",
+				"exec": [
+					""
+				]
+			}
+		},
+		{
+			"listen": "test",
+			"script": {
+				"type": "text/javascript",
+				"exec": [
+					""
+				]
+			}
+		}
+	],
+	"variable": [
+		{
+			"key": "host",
+			"value": "http://localhost:8080",
+			"type": "default"
+		}
+	]
+}

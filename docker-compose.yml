@@ -1,0 +1,33 @@
+version: "3"
+services:
+  frontend_depl:
+    build:
+      context: client
+      dockerfile: Dockerfile
+    image: travelwits/frontend_depl
+    ports:
+      - "3000:3000"
+    depends_on:
+      - backend_depl
+  backend_depl:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    image: travelwits/backend_depl
+    container_name: 'backend_depl'
+    ports:
+      - "8080:8080"
+    depends_on:
+      - db_service
+  db_service:
+    image: postgres:16-bookworm
+    environment:
+      POSTGRES_USER: user
+      POSTGRES_PASSWORD: password
+      POSTGRES_DB: travelwits
+    container_name: 'db_service'
+    ports:
+      - "5432:5432"
+    volumes:
+      - ./db:/docker-entrypoint-initdb.d
+
